@@ -1,0 +1,17 @@
+// @import 'vars'; если используете scss-переменные - подключите сюда vars, но удалите root из _vars.scss
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/movie";
+
+body {
+  background-color: #494949;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

@@ -1,0 +1,47 @@
+.movie {
+  &__img-wrap {
+    max-width: 300px;
+    position: relative;
+  }
+
+  &__rating {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    justify-content: center;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__info {
+    max-width: 300px;
+  }
+
+  &__name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #ffbb03;
+  }
+
+  &__link {
+    color: #ffbb03;
+    text-decoration: none;
+  }
+
+  &__category {
+    color: #ffffff;
+  }
+}
